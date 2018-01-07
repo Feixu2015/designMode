@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.feixu.designpattern.chapter1.strategy.good.AbstractDuck</OriginalElement>
+  <nodes>
+    <node x="384.0" y="458.0">org.feixu.designpattern.chapter1.strategy.good.behavior.impl.Quack</node>
+    <node x="400.0" y="241.0">org.feixu.designpattern.chapter1.strategy.good.BlackDuck</node>
+    <node x="576.0" y="458.0">org.feixu.designpattern.chapter1.strategy.good.behavior.impl.DuckCall</node>
+    <node x="600.0" y="241.0">org.feixu.designpattern.chapter1.strategy.good.DecoyDuck</node>
+    <node x="800.0" y="241.0">org.feixu.designpattern.chapter1.strategy.good.RubberDuck</node>
+    <node x="200.0" y="241.0">org.feixu.designpattern.chapter1.strategy.good.ModelDuck</node>
+    <node x="306.5" y="0.0">org.feixu.designpattern.chapter1.strategy.good.AbstractDuck</node>
+    <node x="288.0" y="347.0">org.feixu.designpattern.chapter1.strategy.good.behavior.QuackBehavior</node>
+    <node x="217.0" y="675.0">org.feixu.designpattern.chapter1.strategy.good.behavior.impl.FlyNoWay</node>
+    <node x="0.0" y="241.0">org.feixu.designpattern.chapter1.strategy.good.WhiteDuck</node>
+    <node x="192.0" y="458.0">org.feixu.designpattern.chapter1.strategy.good.behavior.impl.Squeak</node>
+    <node x="0.0" y="458.0">org.feixu.designpattern.chapter1.strategy.good.behavior.impl.MuteQuack</node>
+    <node x="217.0" y="564.0">org.feixu.designpattern.chapter1.strategy.good.behavior.FlyBehavior</node>
+    <node x="383.0" y="675.0">org.feixu.designpattern.chapter1.strategy.good.behavior.impl.FlyWithWings</node>
+    <node x="0.0" y="675.0">org.feixu.designpattern.chapter1.strategy.good.behavior.impl.FlyRocketPowered</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.WhiteDuck" target="org.feixu.designpattern.chapter1.strategy.good.AbstractDuck">
+      <point x="0.0" y="-30.5" />
+      <point x="90.0" y="211.0" />
+      <point x="343.2" y="211.0" />
+      <point x="-146.8" y="95.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.behavior.impl.DuckCall" target="org.feixu.designpattern.chapter1.strategy.good.behavior.QuackBehavior">
+      <point x="0.0" y="-30.5" />
+      <point x="662.0" y="428.0" />
+      <point x="438.5" y="428.0" />
+      <point x="64.5" y="30.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.BlackDuck" target="org.feixu.designpattern.chapter1.strategy.good.AbstractDuck">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.behavior.impl.MuteQuack" target="org.feixu.designpattern.chapter1.strategy.good.behavior.QuackBehavior">
+      <point x="0.0" y="-30.5" />
+      <point x="86.0" y="428.0" />
+      <point x="309.5" y="428.0" />
+      <point x="-64.5" y="30.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.behavior.impl.FlyWithWings" target="org.feixu.designpattern.chapter1.strategy.good.behavior.FlyBehavior">
+      <point x="0.0" y="-30.5" />
+      <point x="463.0" y="650.0" />
+      <point x="338.66666666666663" y="650.0" />
+      <point x="48.66666666666663" y="30.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.RubberDuck" target="org.feixu.designpattern.chapter1.strategy.good.AbstractDuck">
+      <point x="0.0" y="-30.5" />
+      <point x="890.0" y="211.0" />
+      <point x="636.8" y="211.0" />
+      <point x="146.79999999999995" y="95.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.DecoyDuck" target="org.feixu.designpattern.chapter1.strategy.good.AbstractDuck">
+      <point x="0.0" y="-30.5" />
+      <point x="690.0" y="221.0" />
+      <point x="563.4" y="221.0" />
+      <point x="73.39999999999998" y="95.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.behavior.impl.FlyRocketPowered" target="org.feixu.designpattern.chapter1.strategy.good.behavior.FlyBehavior">
+      <point x="0.0" y="-30.5" />
+      <point x="98.5" y="650.0" />
+      <point x="241.33333333333334" y="650.0" />
+      <point x="-48.66666666666666" y="30.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.behavior.impl.Squeak" target="org.feixu.designpattern.chapter1.strategy.good.behavior.QuackBehavior">
+      <point x="0.0" y="-30.5" />
+      <point x="278.0" y="438.0" />
+      <point x="352.5" y="438.0" />
+      <point x="-21.5" y="30.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.ModelDuck" target="org.feixu.designpattern.chapter1.strategy.good.AbstractDuck">
+      <point x="0.0" y="-30.5" />
+      <point x="290.0" y="221.0" />
+      <point x="416.6" y="221.0" />
+      <point x="-73.39999999999998" y="95.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.behavior.impl.Quack" target="org.feixu.designpattern.chapter1.strategy.good.behavior.QuackBehavior">
+      <point x="0.0" y="-30.5" />
+      <point x="470.0" y="438.0" />
+      <point x="395.5" y="438.0" />
+      <point x="21.5" y="30.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.good.behavior.impl.FlyNoWay" target="org.feixu.designpattern.chapter1.strategy.good.behavior.FlyBehavior">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="397.0" y="206.0" />
+  <SelectedNodes>
+    <node>org.feixu.designpattern.chapter1.strategy.good.behavior.impl.DuckCall</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

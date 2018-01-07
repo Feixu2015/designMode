@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.feixu.designpattern.chapter1.strategy.notgood.Duck</OriginalElement>
+  <nodes>
+    <node x="600.0" y="202.0">org.feixu.designpattern.chapter1.strategy.notgood.RubberDuck</node>
+    <node x="400.0" y="215.0">org.feixu.designpattern.chapter1.strategy.notgood.BlackDuck</node>
+    <node x="0.0" y="189.0">org.feixu.designpattern.chapter1.strategy.notgood.DecoyDuck</node>
+    <node x="200.0" y="215.0">org.feixu.designpattern.chapter1.strategy.notgood.WhiteDuck</node>
+    <node x="300.0" y="0.0">org.feixu.designpattern.chapter1.strategy.notgood.Duck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.feixu.designpattern.chapter1.strategy.notgood.WhiteDuck" target="org.feixu.designpattern.chapter1.strategy.notgood.Duck">
+      <point x="0.0" y="-30.5" />
+      <point x="290.0" y="169.0" />
+      <point x="367.5" y="169.0" />
+      <point x="-22.5" y="69.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.notgood.BlackDuck" target="org.feixu.designpattern.chapter1.strategy.notgood.Duck">
+      <point x="0.0" y="-30.5" />
+      <point x="490.0" y="169.0" />
+      <point x="412.5" y="169.0" />
+      <point x="22.5" y="69.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.notgood.DecoyDuck" target="org.feixu.designpattern.chapter1.strategy.notgood.Duck">
+      <point x="0.0" y="-56.5" />
+      <point x="90.0" y="159.0" />
+      <point x="322.5" y="159.0" />
+      <point x="-67.5" y="69.5" />
+    </edge>
+    <edge source="org.feixu.designpattern.chapter1.strategy.notgood.RubberDuck" target="org.feixu.designpattern.chapter1.strategy.notgood.Duck">
+      <point x="0.0" y="-43.5" />
+      <point x="690.0" y="159.0" />
+      <point x="457.5" y="159.0" />
+      <point x="67.5" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="314.0" y="327.5" />
+  <SelectedNodes>
+    <node>org.feixu.designpattern.chapter1.strategy.notgood.DecoyDuck</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
